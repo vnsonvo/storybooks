@@ -15,7 +15,7 @@
       {{#each stories}}
         <tr>
           <td><a href="/storeis/{{_id}}"></a>{{title}}</td>
-          <td>{{createAt}}</td>
+          <td>{{formatDate createAt "MMMM do YYYY, h:mm:ss a"}}</td>
           <td><span class="dash-status">{{status}}</span></td>
           <td></td>
         </tr>
